@@ -1,0 +1,35 @@
+body{
+    background-color:#ccc ;
+    background-image: url(fondos/paisaje.jpg);
+    /*background-repeat: repeat; se queda como viene por default*/
+    /*background-repeat: repeat-x; /*se repite en horizontal*/
+    /*background-repeat: repeat-y; se repite en forma veltical*/
+    /*background-repeat:no-repeat; la imagen no se repite*/
+    background-size: 100%; /*Esta diseñado para imagenes grandes*/
+    background-attachment: fixed; /*la imagen de fondo no se mueve cuando hacemos scrol*/
+    background-position: bottom left; /*Para posionar la imagen de fondo*/
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(95, 95, 185);
+    color: white;
+}
+
+h2{
+    background-image: url(fondos/patron1.jpg);
+    color: red;
+}
+
+p{
+    text-align: justify;
+    color: white;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-decoration: line-through; /*para decorar el texto lo tacha*/
+    text-indent: 15px;/*le pone la sangria a los textos*/
+    word-spacing: 10px; /*espacio entre palabras*/
+    letter-spacing: 3px;/*Espacio entre letras*/
+    
+}

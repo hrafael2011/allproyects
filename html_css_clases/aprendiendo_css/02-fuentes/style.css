@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face{
+    font-family: relaweyCustom ;
+    src: url(fonts/static/Raleway-ExtraLight.ttf)
+}
+
+
+body{
+    background: AliceBlue;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic; /*Cursiva*/
+    text-transform: uppercase;
+
+    /*Colores*/
+    /*COLORES DEL SISTEMA*/ /*PUEDO VERLOS TODOS EN GOOGLE EN COLOR CSS3*/
+    color: Aqua;
+    /*COLORES EXADECIMALES*/
+    color: #eeeeeecc;
+    /*COLORES RGB*/ /*PUEDO BUSCAR UN GENRADOR DE COLORES RGB EN GOOGLE*/
+    color: rgb(187, 107, 104);
+     /*COLORES RGB*/ /*PUEDO BUSCAR UN GENRADOR DE COLORES RGB EN GOOGLE*/
+    color: rgba(187, 107, 104, 0.7); /*EL 0.7 SIGNIFICA EL NIVEL DE OPASICIDAD*/
+
+
+    
+}
+
+h3{
+    font-family:relaweyCustom, 'Comic Sans MS';
+    font-size: 25px; /*un em equeivale a 16px*/
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: bold; /* para el grosor del texto , puedo especificar en numero comenzando de 100*/
+}
+

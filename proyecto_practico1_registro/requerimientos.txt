@@ -1,0 +1,12 @@
+############################# Programa de registro de datos##################
+
+Realizar un pequeno sistema que haga los registros de los siguietes datos
+
+-Foto
+-nombre
+-apellido
+-Fecha de nacimiento > a partir de la fecha de nacimiento diga la edad y 
+ si es mayor de edad que desplegue la opcion de agregar cedudla de identidad
+-email
+-Direccion
+nota: el Usuario sera el correo, y la clave temporarl sera la primera letra del nombre, y fecha de nacimiento
