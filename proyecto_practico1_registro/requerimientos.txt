@@ -10,3 +10,4 @@ Realizar un pequeno sistema que haga los registros de los siguietes datos
 -email
 -Direccion
 nota: el Usuario sera el correo, y la clave temporarl sera la primera letra del nombre, y fecha de nacimiento
+f
