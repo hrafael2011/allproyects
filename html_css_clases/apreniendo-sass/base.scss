@@ -1,0 +1,130 @@
+
+
+// Variables
+
+$letter-type : sans-serif, Helvetica, Arial;
+$back-color : #ccc;
+$principal-color : red;
+$secundary-color : rgb(218, 56, 56);
+
+
+//uso de variables
+body{
+    background-color: $back-color;
+}
+
+h1{
+
+    color : $principal-color;
+    font-family: $letter-type;
+}
+
+p{
+    color: $secundary-color;
+}
+
+
+//Anidacion
+
+.caja{
+
+    border: 1px solid black;
+    width: 500px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    h1{
+        color: red;
+    }
+
+    p{
+        color: green;
+    }
+
+    .info{
+        font-size: 10px;
+        span{
+            font-size: 12px;
+            color: green;
+        }
+    }
+}
+
+//Mixins/ Funciones
+
+// puede ser parametrizadas
+@mixin crearBordes($color, $size, $shadow){
+    border: $size solid $color;
+    border-radius: $size;
+    box-shadow: 0px 0px $size $shadow;
+}
+
+.caja{
+    @include crearBordes(red, 10px, black);
+}
+
+.listado{
+    @include crearBordes(green, 5px, yellow);
+}
+
+// Herencia
+
+%alert-normal{
+
+    border: 1px solid gray;
+    background: white;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.alert{
+    @extend %alert-normal;
+}
+
+.alert-danger{
+    @extend %alert-normal;
+    color: red;
+    border: 1px solid red;
+    
+}
+
+.alert-success{
+    @extend %alert-normal;
+    color: blue;
+    border-color: green;
+}
+
+
+
+// Operadores
+
+// Nos permite hacer operaciones matematicas con las medidas
+
+
+// Condicinales - if
+
+$back-color : red;
+h1{
+    @if $back-color == #ccc {
+
+        color: black;
+    }@else if back-color == black{
+        color: lightcoral;
+    }@else{
+        color: pink;
+    }
+}
+
+
+// FOR
+
+$contador: 1;
+
+@for $contador from 1 through 10{
+     .listado ul li:nth-child(#{$contador}){
+        font-size: $contador * 10px;
+     }
+}

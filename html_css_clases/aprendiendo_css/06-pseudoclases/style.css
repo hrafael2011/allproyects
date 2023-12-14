@@ -1,0 +1,40 @@
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#lenguajes li:first-child{ /*le da estilo al primer elemento hijo*/
+    color: red;
+}
+
+#lenguajes li:nth-child(2){ /* le da estilo al segundo elemento hijo*/
+    color: yellow;
+}
+
+#lenguajes li:last-child{ /*le da estilo al ultimo elemento hijo*/
+    color: blue;
+}
+
+#web:link{ /* le da estilo antes de ser cliqueado el link*/
+    color:brown;
+}
+
+#web:visited{ /* le da estilo despues de ser cliqueado el link*/
+    color: royalblue;
+}
+
+#web:active{ /*Cuando de click aplique este formato y luego me redirecciona*/
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type='text']{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+input[type='text']:focus{
+    border: 4px dashed green;
+}

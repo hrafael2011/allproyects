@@ -1,0 +1,14 @@
+Documentacin de curso del curso master en react
+
+DIA 1;
+
+1.Lo primero es instalar la extencion en visual studio code ES7 React/Redux/.... (el navedor recomendable es firefox e instalar la extencion react developer tools)
+2. debe tener instalado node.js
+3. para crear un nuevo proyecto de react en la consola de comando, de hacer lo siguiente:
+-ir al directorio donde se encuentra el proyecto
+-escribir npx create-react-app nombre_del_proyecto
+- despues de instalado, entras por consola al proyecto (cd nombre del proyecto) y para iniciarlo escribes npm start
+
+DIA 2;
+
+1-  rafc : es un atajo o snipe que permite crear la estrutura basica de un componente

@@ -1,0 +1,15 @@
+
+
+/*
+----Compilar de sass a css para que los navegadors los reconozcan----
+
+1. Por CMD ir al directorio donde se encuentra sass
+2. Escibir el sigueinte codigo: sass --watch style.scss styles.css
+3. el codigo anterior quiere decir que la entrada sera por sass y la salida por css
+
+*/
+
+
+/*importacion de modulo*/
+@use 'base';
+@use 'cabezera';

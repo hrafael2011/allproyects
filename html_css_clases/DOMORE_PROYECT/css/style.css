@@ -1,0 +1,805 @@
+/*Fonts*/
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/Open_Sans/static/OpenSans-Light.ttf");
+}
+
+
+
+/*Estilos Generales*/
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color:#ccc;
+    font-family: OpenSans;
+}
+
+
+/*CABEZERA*/
+header{
+    
+    height: 55px;
+    
+
+}
+.size{
+    width: 1850px;
+    height: 55px;
+    display: block;
+    margin: 0 auto;
+}
+#input-search{
+    display: block;
+    width: 23%;
+    height: 100%;
+    float: left;
+    background-color: #454545;
+    box-shadow: 0px 0px 10px hsl(0deg 0% 23.53%) inset;
+}
+
+#search{
+    background-color: #666;
+    width: 400px;
+    height: 31px;
+    display: block;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 25px;
+    
+}
+
+#search img{
+
+    height: 19px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-left:12px;
+    margin-top: 6px;
+    
+}
+
+#search span{
+    display: block;
+    float: left;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+    
+    
+}
+
+
+
+#search input[type="text"]{
+    
+    display:block;
+    width: 200px;
+    float:right;
+    margin-top: 8px;
+    margin-right: 109px;
+    background-color:#666 ;
+    border: none;
+    
+}
+
+#search input[type="text"]::placeholder{
+    
+   font-family: "OpenSans";
+   color: #999;
+   font-size: 13px;
+    
+}
+
+
+#barlogo{
+    display: block;
+    height: 100%;
+    width: 77%;
+    float: right;
+    background-color: #98b15e;
+    box-shadow: 0px 0px 10px hsl(77.84deg 31.36% 46.27%) inset;
+}
+
+
+#barlogo img{
+    height: 50px;
+    width: 200px;
+    margin-top: -4px;
+}
+
+
+
+#barlogo #namesection{
+    display: block;
+    float: right;
+    width: 205px;
+    height: 20px;
+    color: white;
+    margin-top: 18px;
+    margin-right: 45px;
+    font-size: 13px;
+
+}
+
+#namesection span:nth-child(2){
+    font-weight: bold;
+}
+
+/*CONTENT*/
+
+#content{
+
+    height: 1200px;
+    background-color:white;
+    
+}
+#content aside{
+    display: block;
+    width: 23%;
+    height: 100%;
+    background-color: #666;
+    box-shadow: 0px 0px 30px #4f4f4f inset;
+    list-style: none;
+}
+
+#content > aside > ul >li{
+    
+    list-style: none;
+}
+
+.menu{
+
+    width: 100%;
+    height: 48px;
+    border-bottom: 1px solid #ccc;
+    transition: all 300ms;
+
+}
+.menu:hover{
+    background-color:#98b15e; 
+    transition: all 300ms;
+
+}
+
+
+.menu:hover *{
+    background-color:#98b15e; 
+    transition: all 300ms;
+}
+
+.menu span{
+    display: block;
+    width: 50px;
+    height: 100%;
+    float :left ;
+    margin-left: 18px;
+    background-color:#454545;
+    
+}
+
+.menu > span > img{
+    width: 35px;
+    height: 36px;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.menu > a{
+    display: block;
+    float: left;
+    margin-left:15px;
+    margin-top: 7px;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+}
+
+#performance{
+    width: 22%;
+    margin-top: -870px;
+}
+
+.table{
+    width: 90%;
+    margin-left: 50px;
+    border-spacing: 0;
+}
+
+.table tbody tr:nth-child(1) td:nth-child(1){
+    width: 100px;
+    text-align: left;
+    font-size: 18px;
+    color: #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+
+.table tbody tr:nth-child(1) td:nth-child(2){
+    width: 50px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+}
+
+.table tbody tr td:nth-child(2) img{
+   width: 20px;
+   height: 19px;
+
+}
+
+#performance table tbody tr:nth-child(2) td {
+   
+    
+    width: 100%;
+    height: 50px;
+    background-color: #666;;
+
+
+}
+
+#performance table tbody tr:nth-child(2) td div {
+   margin-top: 10px;
+   background-color: #999;
+   height:30px ;
+   
+}
+
+#performance table tbody tr:nth-child(2) td div span{
+    background-color: #98b15e;
+    display: block;
+    margin-top: 1px;
+    width: 60%;
+    height: 30px;
+    line-height: 27px;
+    color: white;
+ 
+ }
+
+ #performance table tbody tr:nth-child(2) td div span i{
+   display: block;
+   float: right;
+   margin-right: 10px;
+    
+    
+    
+ }
+
+ .order_table {
+
+    width: 22%;
+    margin-top: 50px;
+ }
+
+ .order_table > table > tbody >tr >td:nth-child(2){
+
+    margin-right: 50px;
+ }
+
+ #latetask > table > tbody >tr:nth-child(2) td{
+    height: 50px !important;
+    vertical-align: bottom;
+ }
+ .order_table > table > tbody >tr:nth-child(n+2 ) td{
+    width: 100%;
+    height:25px;
+    color: #ccc;
+
+ }
+
+ 
+
+ #status > table > tbody  > tr:nth-child(n+2) > td{
+
+    border-bottom: 1px solid #ccc;
+    height: 90px;
+    width: 100%;
+    
+ }
+
+ #status > table > tbody  > tr:nth-child(n+2) > td > p:nth-child(1){
+
+   font-weight: bold;
+   color: #cccc;
+    
+ }
+
+ #status > table > tbody  > tr:nth-child(n+2) > td > p:nth-child(n+2){
+   
+    color: #ccc;;
+     
+  }
+
+  #status > table > tbody  > tr:nth-child(n+2) > td > p > span{
+
+    
+    color: #939393;
+     
+  }
+
+  /*Section*/
+
+  #section{
+
+   
+    width: 70%;
+    margin-right: 68px;
+    margin-top: -947px;
+    height: 1130px;
+    float: right;
+
+  }
+
+  .table_section{
+    width: 100%;
+    border-spacing: 0;
+    
+  }
+
+  #table1 > thead > tr > th > div{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: -13px;
+ 
+    /*height: 100%;*/
+    
+}
+
+
+  #table1 > thead > tr > th > div> span >img{
+
+    display: inline;
+   
+  
+    width: 25;
+    height: 32px;
+   
+
+    
+  }
+
+  #table1 > thead > tr > th:nth-child(1){
+
+    width: 70%;
+    text-align: left;
+  }
+
+  #table1 > thead > tr:nth-child(1) > th{
+
+    color: #666;
+  }
+
+  #table1 > thead > tr:nth-child(2) > th:nth-child(1) {
+    color: #707070;
+    border-bottom: none;
+  
+    
+  }
+
+  #table1 > thead > tr:nth-child(2) > th:nth-child(1) >p:last-child {
+    color: #606060;
+    font-size: 40px;
+    font-weight: bold;
+   
+    
+  }
+
+  #table1 > thead > tr:nth-child(2) > th:nth-child(n+1){
+   
+    border-bottom: 2px solid #ccc;
+    border-right: 1px solid #ccc;
+  
+    
+  }
+
+
+
+  #table1 > thead > tr > th:nth-child(n+2){
+   
+    height: 15px;  
+  }
+
+
+  #table1 > thead > tr:nth-child(2) > th:last-child{
+   
+    
+    border-right: none;
+    
+  }
+
+  #table1 > thead > tr > th:nth-child(n+2){
+
+    width: 10%;
+  
+  }
+
+  #table1 > thead > tr > th > div > span:nth-child(2){
+
+    display: block;
+    float: right;
+    margin-top: -30px;
+    margin-right: 24px;
+    width: 50%;
+    text-align: left;
+    font-size: 13px;
+    color: #cfcfcf;
+
+    
+  }
+
+  #table1 > thead > tr > th > div > span:nth-child(1){
+    display: block;
+    margin-top: 22px;
+    width: 30%;
+    
+    
+  }
+
+  .altura{
+    
+    height: 230px;
+  }
+
+  
+  #table2,.table-format{
+
+    margin-top: 40px;
+  }
+
+  #table2 >thead > tr >th, .table-format >thead > tr >th{
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+
+
+  
+  #table2 >thead > tr >th:first-child{
+    width: 50%;
+  }
+
+  
+  #table2 >thead > tr >th:nth-child(2){
+    width: 15%;
+  
+  }
+
+  #table2 >thead > tr >th:nth-child(3){
+    width: 5%;
+    text-align: center;
+  }
+
+  #table2 >thead > tr >th:nth-child(4){
+
+    width: 10%;
+    text-align: center;
+  }
+
+  #table2 >thead > tr >th:nth-child(5){
+
+    width: 12.5%;
+    text-align: center;
+    
+  }
+
+  #table2 >thead > tr >th:last-child{
+
+    width: 7.5%;
+    text-align: center;
+   
+  }
+
+  #table2 >tbody > tr >td, .table-format >tbody > tr >td{
+
+    height: 40px ;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+     
+   }
+
+   #table2 >tbody > tr:nth-child(1) >td:nth-child(5) div{
+
+    width: 80%;
+    background-color: #98b15e;
+    
+
+     
+   }
+
+   #table2 >tbody > tr:nth-child(2) >td:nth-child(5) div{
+
+    width: 50%;
+    background-color: #b25e5e;
+        
+   }
+
+   #table2 >tbody > tr:nth-child(3) >td:nth-child(5) div{
+
+    width: 30%;
+    background-color: #e68a47;
+        
+   }
+
+   #table2 >tbody > tr:nth-child(4) >td:nth-child(5) div{
+
+    width: 20%;
+    background-color: #cccccc;
+        
+   }
+
+   #table2 >tbody > tr:nth-child(5) >td:nth-child(5) div{
+
+    width: 80%;
+    background-color: #98b15e;
+        
+   }
+
+   #table2 >tbody > tr:nth-child(5) >td:nth-child(5) div{
+
+    width: 50%;
+    background-color: #b25e5e;
+        
+   }
+
+   #table2 >tbody > tr:nth-child(6) >td:nth-child(5) div{
+
+    width: 30%;
+    background-color: #e68a47;
+        
+   }
+
+   #table2 >tbody > tr:nth-child(7) >td:nth-child(5) div{
+
+    width: 20%;
+    background-color: #cccccc;
+        
+   }
+
+   #table2 >tbody > tr:nth-child(8) >td:nth-child(5) div{
+
+    width: 80%;
+    background-color: #98b15e;
+    
+  }
+
+  #table2 >tbody > tr:nth-child(9) >td:nth-child(5) div{
+
+    width: 80%;
+    background-color: #98b15e;
+    
+   }
+
+   .table_section >tbody > tr >td:nth-child(6){
+
+    text-align: center;
+    width: 100px;
+    font-weight: bold;
+     
+   }
+
+
+   #table2 >tbody > tr:nth-child(10) >td:nth-child(5) div{
+
+    width: 50%;
+    background-color: #b25e5e;
+        
+   }
+
+
+   #table2 >tbody > tr:nth-child(11) >td:nth-child(5) div{
+
+    width: 30%;
+    background-color: #e68a47;
+        
+   }
+
+   #table2 >tbody > tr:nth-child(12) >td:nth-child(5) div{
+
+    width: 20%;
+    background-color: #cccccc;
+        
+   }
+
+   #table2 >tbody > tr >td:nth-child(5) div span{
+
+    margin-left: 6%;
+    color: white;
+    font-size: 14px;
+    
+     
+   }
+
+
+
+   #table2 >tbody > tr >td:nth-child(2) p{
+
+   font-size: 10px;
+   font-weight: bold;
+   font-style: italic;
+   color: black;
+
+     
+   }
+
+   #table2 >tbody > tr >td:nth-child(n+2):nth-child(-n+5){
+
+    border-right: 1px solid #ccc;
+     
+   }
+
+  #table2 >tbody > tr >td:nth-child(2){
+
+   text-align: left;
+    
+  }
+
+  #table2 >tbody > tr >td:nth-child(3){
+
+    text-align: center;
+     
+   }
+ 
+   #table2 >tbody > tr >td:nth-child(4){
+
+    text-align: center;
+     
+   }
+
+   #table2 >tbody > tr >td:nth-child(5){
+
+    text-align: center;
+     
+   }
+
+   #table2 >tbody > tr >td:nth-child(6){
+
+    text-align: center;
+     
+   }
+
+   #table3 >tbody > tr >td:nth-child(n+1):nth-child(-n+5){
+
+    border-right: 1px solid #ccc;
+     
+   }
+
+   #table3 >tbody > tr >td:nth-child(1){
+
+    width: 666.083PX;
+    
+     
+   }
+
+   #table3 >tbody > tr >td:nth-child(1) > span{
+
+    float: right;
+    margin-right: 7px;
+    text-align: center;
+    font-size: 12px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+        
+   }
+
+   #table3 >tbody > tr:nth-child(1)  >td> span{
+
+    background-color:#98b15e ;
+        
+   }
+
+   #table3 >tbody > tr:nth-child(2)  >td> span{
+
+    background-color:#b13f3f ;
+        
+   }
+
+   #table3 >tbody > tr:nth-child(3)  >td> span{
+
+    background-color:#e88b48 ;
+        
+   }
+
+   #table3 >tbody > tr:nth-child(4)  >td> span{
+
+    background-color:#e88b48 ;
+        
+   }
+
+   
+
+
+   #table3 >tbody > tr >td:nth-child(3){
+
+    width: 66.6PX;
+    text-align: center;
+     
+   }
+
+   #table3 >tbody > tr >td:nth-child(2){
+
+    padding-left: 7px;
+    width: 193px;
+    color: black;
+    font-weight: bold;
+     
+   }
+
+   #table3 >tbody > tr >td:nth-child(4){
+
+    padding-left: 7px;
+    width: 120px;
+     
+   }
+
+   #table3 >tbody > tr >td:nth-child(6){
+
+    text-align: center;
+    width: 100px;
+     
+   }
+
+   #table3 >tbody > tr >td:nth-child(5) > div{
+
+    margin-left: 10px;
+    background-color: #cccccc;
+    color: white;
+    text-align: center;
+        
+   }
+
+
+
+   #table3 >tbody > tr:nth-child(1) >td:nth-child(5) > div{
+   
+    width: 80%;
+        
+   }
+
+   #table3 >tbody > tr:nth-child(2) >td:nth-child(5) > div{
+   
+    width: 50%;
+        
+   }
+
+   #table3 >tbody > tr:nth-child(3) >td:nth-child(5) > div{
+   
+    width: 30%;
+        
+   }
+
+   #table3 >tbody > tr:nth-child(4) >td:nth-child(5) > div{
+   
+    width: 20%;
+        
+   }
+
+
+   
+   #table3 >tbody > tr >td:nth-child(5)  div span{
+   
+    margin-left: 6px;
+    text-align: center;
+        
+   }
+
+
+  
+   
+
+
+
+
+
+
+
+
+

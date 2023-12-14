@@ -1,0 +1,77 @@
+
+#web{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: green;
+    padding: 15px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border: 1px solid gray;
+    box-shadow: 1px 5px 10px gray;
+    border-radius: 10px;
+    /*transition: all 2s; /*Esto le aplica para todos los elementos la tranciones que se vallan hacer con hover o otra propiedad  tambien puedo expresarlo en mm*/
+    transition: background 3s, border-radius 4s;
+}
+
+#web:hover{
+
+    
+    color: rgb(212, 207, 207);
+    background-color: rgb(8, 77, 8);
+    border-radius: 999px;
+    padding: 20px;
+    transition: all 5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#caja{
+
+    background-color: rgb(192, 228, 192);
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(73, 71, 206);
+    margin-top: 25px;
+    line-height: 200px;
+    font-weight: bold;
+    animation-name: desplazamiento; /*Nombre del keyframe para la animacion*/
+    animation-duration: 10s;/*Duracion que dura la animacion*/
+    animation-iteration-count: infinite; /*Para que la animacion se produzca de forma infinita*/
+    animation-timing-function: linear; /*Para que matenga la velocidad de forma linear*/
+}
+
+/*Esto hace que aplique la animacion con atributos*/
+@keyframes desplazamiento{
+    0%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+        border-radius: 0%;
+    }
+    50%{
+
+        margin-left: 1200px;
+        transform: rotate(360deg);
+        border-radius: 999px;
+    }
+    75%{
+        background: red;
+    }
+    80%{
+        border-radius: 0%;
+        border: 5px solid gray;
+    }
+
+    100%{
+
+        margin-left: 0px;
+        transform: rotate(0deg);
+        
+    }
+}

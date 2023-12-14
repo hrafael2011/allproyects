@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#layout{
+    border: 3px solid black;
+    padding: 5px;
+    display: flex; /*la caja toma el ancho del 100%*/
+    /*display: inline-flex; /*Se adapta al tamano de la caja es atumatico*/
+    /*flex-direction: row ; */
+    /*
+    row: lo organiza en filas (es el que viene por defecto)
+    row-reverse: lo organiza en filas pero alreves
+    column: lo orgniza en columna
+    column-reverse: en columna pero alreves
+    */
+    /*flex-wrap: wrap;*/
+
+    flex-flow:row wrap ; /*Me ahorra escribir flex-direction: row  y flex-wrap: wrap;*/
+    justify-content: end; /*Para alinear el contenido*/
+    height: 600px;
+    align-items: flex-end ; /*Se utiliza para alinear verticalmente*/ /*Investigar mas sobre las propiedades*/
+}
+
+.caja{
+
+    /*flex-grow: 1;/*Este comparte el espacio entre todas las cajas que estan dentro de ella*/
+
+    /*flex-basis: calc((100% / 3) - 68px); /*Es una nueva funcion de css que permite hacer calculos*/
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+
+/*
+
+    nota importante, flex-grow : hace que que los elementos sean flexifles y responsive
+                     flex-basis: para asignar un tamano minimo tamano base
+*/
+
+.red{
+    background: red;
+    /*flex-grow: 2; /*Tabmein lo puedo hacer de forma individual con cada caja, y dependiendo el numero ocupara mas espacio y el resto de espacio se compartira entre las demas cajas*/
+       /*order: 4;*/ /*para asignar orden a los elementos*/
+}
+.blue{
+    background: blue;
+    flex-shrink: 0 ; /*redudce el tamaño de una caja convinado con flex-grow:0;*/
+    flex-grow: 0;
+    /*order: 3;*/
+}
+.green{
+    background: green;
+    /*order: 2;*/
+}
+.orange{
+    background: orange;
+    /*order: 1;*/
+    /*flex-basis: 100%; /*Permite asignar tamano como widht pero es la forma moderna*/
+}

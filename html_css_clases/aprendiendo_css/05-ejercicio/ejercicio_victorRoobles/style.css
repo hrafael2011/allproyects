@@ -65,6 +65,13 @@
     width: 30%;
     border: 1px solid red;
     min-height: 500px;
+    max-height: 650px;
+    /*overflow: hidden;/*se ocultan el texto que sobresale de la caja*/
+    /*overflow: scroll;/*Agrea un scrool para poder visualizar el texto que sobresale*/
+    /*overflow-y: scroll;/*Se muestra el scrool de arriba*/
+    overflow-x: scroll;/*el que viene por defecto*/
+
+
 }
 
 #contenido .caja{
@@ -72,16 +79,27 @@
     margin: 20px;
     width: 40%;
     height: 250px;
-    background-color: red;
-    border:5px solid blue;
+    background-color: #ccc;
+    border:1px solid gray;
     color: white;
     margin-left: 40px;
+    text-align: center;
+    line-height: 200px;
+    color:#444;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 5px gray ;
+    border-radius: 50px 10px 4px 61px;
 
+}
+
+.sombra-interior{
+    box-shadow: 10px 10px 5px gray inset !important; /*El inset hace que la sombra se aplique adentro de la caja, important le da prioridad por ensima de las otras clases*/
 }
 #contenido h1{
     text-align: center;
     border: 1px solid #ccc;
     padding: 10px;
+    text-shadow: 0px 0px 2px gray ;
     
 }
 
@@ -91,5 +109,40 @@
     line-height: 55px;
     background-color: #eee;
     text-align: center;
+    border-top: 1px solid #ccc;
+}
+.libre{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 13px;
+    position: absolute; /*Permite mover libremente una caja*/
+    /*position: relative;/*Es la posicion que viene por defecto*/
+    top: 300px; /*Puedo poscinar*/
+    left: 50%;/*Posicionar a la izquierda*/
 }
 
+.libre1{
+    z-index: 2; /*mientras mas alto es el z-index mas alto estara por encima de las capas*/
+}
+
+.libre2{
+    background-color: green;
+    top: 280px;
+    left: 50%;
+    z-index: 1;
+}
+
+.fija{
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 13px;
+    position: fixed; /*Permite que la caja se quede fija*/
+    top: 50%; 
+    left: 0px
+}

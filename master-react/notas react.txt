@@ -1,0 +1,132 @@
+
+----Preparar entorno de desarrollo------
+
+1- se recomienda usar visual studio code
+2- Instalar la extencio de react ES7+ React/Redux/React-Native...(Este ayuda mucho con los atajos)
+3- como navegador web se recomienda firefox y usar la extencion react developper tools
+4- Node.js LTS (es la mas estable) instalado (Por medio de el se instala react y las dependencias)
+5- NPM (Node Package Manager), se instala a raiz de la instalacion de node
+
+
+
+---- Instalacion de react y crear proyecto
+
+1- en cmd ir a la carpeta del proyecto o abrir la terminar de visual studio code
+2- en la consola escribir npx (Ejecuta un paquete o un modulo). npx creacte-react-app 
+01-primeros-pasos . esto crea la aplicacion al final es el nombre de la app, esto 
+comenzara la instalacion y descargar todas las dependencias
+3- El paquete a utilizar es 
+4- despues de terminada la instalacion, entrar al directorio de la appliacion: cd 01-primeros-paos , luego escribir npm start y listo(arranca el seridor local)
+
+
+----Estructura  base de un proyecto base de react ----
+
+1. Node_modules , es un directorio donde se van a descargar e instalar todas las dependencias del proyectos
+2. public, Es el directorio donde se cargara la web, Acceso directo en el navegador
+    *index.html, este archivo es donde se carga los componentes para la web
+    *manifest.json para la con configuracin de los PWA
+    *robots.txt para el CEO
+
+3. src, es el directorio que estramos utilzando mas.
+    *App.css, donde se realizaran los estilos
+    *App.js es el componente principal
+    *App.test.js, es un fichero de test para App.js
+    *index.css, es la hoja de estilo principal
+    index.js, en este fichero se carga en framework de react, es donde se indica cual es el componente por donde se inicia la aplicacion
+
+4. gitignore, para incluir archivos que no quiero que hagan commit, es decir que a la hora de hacer commit que los ignore
+5.packgae-lock.json, es un fichero que genera el package de jason o npm, cuando se trabaja con el
+6. package.json, indica la version del proyecto, las dependencias y entre otras cosas para configurar nuestro proyecto
+7. README.md, es documentacion
+
+--- Componentes en react ----
+
+1. un componente, es una parte de la aplicacin o parte de la interfaz de la web
+   puede ser desde un header por ejmeplo hasta una pagina de inicio
+2. jsx , es como una especie de mescla de javascript y html , 
+3. A diferencia de hmtl , jsx hay que cambiarle algunas propiedades compo por ejemplo en ves de class se utiliza className
+
+---Crear componentes en react---
+**************************************************************************************************************************
+nota: hay ciertos ficheros que no son nesesarios , si se deceaan pueden ser eliminados tales como:
+
+
+-setupTests.js
+-reportWebVitals.js
+- del indes.js tambien puede eliminar 'import reportWebVitals from './reportWebVitals';'
+-
+    tambien puede ser removido esos comentarios
+
+    // If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+-
+
+- tambien remover el modo estricto de react  de index.js para que no de ningun inconveniente, eso por temas didacticos 
+    </React.StrictMode>
+
+- App.test.js, tambien puede ser removido sin ningun problema
+
+***************************************************************************************************************************
+
+
+1. Los componetes se crean dentro de los src , y se guarndan con la extencion de js, se recomineda que los nombre se crean PascalCase
+2. Debes importar react;  import react from "react";
+3. crear una funcion tipo Flecha{
+
+const MiComponente = () =>{
+    {/* para poder utilizar mas de una etiqueta devemos utilizar un div , tambien puedo usar un framgment vacio <>..</> o la etiqueta fragment*/ }
+    
+    return (
+
+        <div>
+           <p>Este es mi primer componente</p>
+             <hr/>
+             <ul>
+                <li>React</li>
+                <li>Angular</li>
+                <li>Vue</li>
+             </ul>
+        </div>
+    );
+};
+}
+
+4. Al final exportarlo , 
+//export
+
+export default MiComponente
+
+5. Importarlo en el componete principal, y usar la etiqueta del componete principal para renderizarlo
+
+
+-------------Comunicacion entre componentes-------
+
+1. en index.js, puedo especificar cual es el componente principal
+
+
+-------------------Hooks--------------------------
+
+
+1. Los hooks son funciones especiales que te permite utilizar caracteristicas  de React en componentes de funcion
+
+
+
+****metodo aprendido de javascript***
+
+ {JSON.stringify(usuario)} : para ver el contenido de un objeto
+
+ /// Nota: Estudiar los eventos de react
+
+
+
+
+
+
+
+
+
+
+
