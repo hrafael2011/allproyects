@@ -1,0 +1,4 @@
+**********style component*************
+
+1 - hay que instalar una libreria llamada @emotion/react (Buscarla en intenet la pagina)
+2 - por la consola del comendo ir al directorio donde esta el proyecto y escribir el comando npm i @emotion/react @emotion/styled

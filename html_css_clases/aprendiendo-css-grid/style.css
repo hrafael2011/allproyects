@@ -1,0 +1,253 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+/*----------------------------------Ejercicios Completos con Areas-------------------------------------*/
+
+
+#website-area {
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    grid-template-rows: 150px 70px 1fr 70px;
+    grid-template-areas: 
+    "header header header header header"
+    "nav nav nav nav nav"
+    "section section section section sidebar"
+    "footer footer footer footer footer"
+  
+    
+    
+    ;
+
+    width: 75%;
+    height: 100vb; /*viewport height,  eso es de la altrua del navegador*/
+    margin: 0px auto;
+    border: 1px solid #ccc;
+}   
+
+#website-area #cabecera{
+ 
+    grid-area: header;
+    background: blue;
+    color: white;
+    line-height: 85px;
+
+}
+
+#website-area #menu{
+   
+    grid-area: nav;
+    background: lightblue;
+    color: black;
+    line-height: 25px;
+}
+
+#website-area #menu ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    text-decoration: none;
+}
+
+#website-area #menu a{
+    text-decoration: none;
+}
+
+
+#website-area #contenido{
+    
+    grid-area: section;
+  
+    background-color: #eee;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 20px;
+    
+}
+
+
+#website-area #contenido article {
+    background: #ccc;
+    border: 1px solid #555;
+   
+}
+
+#website-area #lateral{
+  
+    grid-area: sidebar;
+    background:orange;
+    color: white;
+}
+
+#website-area #pie-pagina{
+
+    grid-area: footer;
+    background: black;
+    color: white;
+}
+
+
+
+
+/*----------------------------------Ejercicios Completos-------------------------------------*/
+
+
+#website {
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    grid-template-rows: 150px 70px 1fr 70px;
+
+    width: 75%;
+    height: 100vb; /*viewport height,  eso es de la altrua del navegador*/
+    margin: 0px auto;
+    border: 1px solid #ccc;
+}   
+
+#website #cabecera{
+    grid-column: 1/6;
+    background: blue;
+    color: white;
+    line-height: 85px;
+
+}
+
+#website #menu{
+    grid-column: 1/6;
+    background: lightblue;
+    color: black;
+    line-height: 25px;
+}
+
+#website #menu ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    text-decoration: none;
+}
+
+#website #menu a{
+    text-decoration: none;
+}
+
+
+#website #contenido{
+    grid-column: 1/5;
+    background-color: #eee;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 20px;
+    
+}
+
+
+#website #contenido article {
+    background: #ccc;
+    border: 1px solid #555;
+    line-height: 200px;
+}
+
+#website #lateral{
+    grid-column: 5/6;
+    background:orange;
+    color: white;
+}
+
+#website #pie-pagina{
+    grid-column: 1/6;
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------Ejemplos-------------------------------------*/
+
+.layout{
+
+    width: 80%;
+    height: 600px;
+    margin: 0px auto;
+
+
+    /*Definir el grid Layout*/
+    display: grid;
+
+    /*Espacio entre elementos grid*/
+    grid-gap: 10px;
+
+    /*para poner los elmentos en columnas, y asignarle un % de lo que va ocupar , lleva un orden*/
+    /*grid-template-columns:50% 15% 25% 10%;*/
+    /*grid-template-columns: repeat(2, calc(25% - 10px)) 15% 35%;/*Esa funcion se utiliza cuando voy a repetir, lo primero representa el numero de columna y lo segundo el porcentaje*/
+    grid-template-columns: repeat(3, 1fr);/*para fraccionar los elementos*/
+    grid-template-rows: 0.5fr 1fr 2fr 1fr; /*Es lo mismo que trabajar con % pero CSS grid lo procesa mejor*/
+
+
+    padding: 10px;
+
+    border: 3px solid orangered;
+
+}
+
+
+.layout .caja{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border: 4px solid #222;
+    
+    background-color: gray;
+
+}
+
+.layout .red{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.layout .green{
+    background-color: green;
+    grid-row-start: 2;
+    grid-row-end: 6;
+
+}
+.layout .blue{
+    background-color: blue;
+    grid-column: 2/4;
+}
+.layout .pink{
+    background-color: pink;
+    grid-column: 2/3;
+    grid-row: 3/5;
+}
+.layout .orange{
+    background-color: orange;
+    grid-row: 3/5;
+}
+
+.layout .brown{
+    background-color: brown;
+    grid-column: 2/5;
+}

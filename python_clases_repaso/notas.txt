@@ -1,0 +1,23 @@
+*********instalacion de django****************
+
+En el simbolo de sistemas intalamos en modulo de django
+
+pip install Django== (la version que querramos)
+
+*********Ver version de django*********
+python -m django --version
+
+*******instalacion de django*******
+1- debo dirigirme al directorio donde quiero crear mi proyecto
+2- despues de instalado django , tengo varios comando que puedo utilizar, para crear el proyecto escribo 'django-admin startproject nombre_proyecto'
+3- debes migrar el proyecto con el comando: python manage.py migrate
+4- para arrancar el servidor debes escribir: python manage.py runserver
+
+
+******Crear una app******
+
+1- en la consola dentro de mi proyecto python manage.py startapp nombre_app
+
+****Agregr una ruta url ******
+
+ir al paner y buscar el arhivo url.py

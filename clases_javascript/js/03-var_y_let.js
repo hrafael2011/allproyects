@@ -20,3 +20,4 @@ if(true){
     console.log(texto)
 }
 console.log(texto) //el resultado sera el primero que fue definido, porque solo habra cambio en el que esta dentro del if
+.
