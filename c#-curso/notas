@@ -1,0 +1,27 @@
+****para crear un proyecto nuevo,****
+
+1. vamos al directorio mediante cmd
+2. escribimos dotnet console o- NombreProyecto
+
+*****Para correr el proyecto******
+
+1. en el directorio del proyecto , escribimo dotnet run
+    `
+
+****** Para obtener el codigo compilado, el ejecutable de la aplicacion ******
+
+-- En la consola despues que  se depura el codigo genera , una direccion donde puedes obtener el ejecutable, 
+    -- copiamos dicha direccion y la pegamos con en Ejucutar de windows
+
+    ejmplo de como se veria , la direccin del ejecutable.
+
+    'C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\bin\Debug\net6.0
+
+    en el directorio bin es que se encuetra el ejecutable
+
+
+    *******NOTA IMPORTANTE*******
+
+    sentencias de alto nivel o statement top level es lo nuevo de C# a partir de la version 9
+
+    ****** DateTime  estudiar*******

@@ -38,31 +38,25 @@ def index(request):
             year+=1
     html += '</ul>'
     
-    return HttpResponse(layout+html)
+    return render(request, 'index.html')
 
 
 
 
 # primer hola mundo con Django
 def hola_mundo(request): #todos los metodos deben llevar como paramentro request
-    return HttpResponse(layout+'''
-                         <h1>Hola Mundo con Django</h1>
-                        <h2> Hendrick </h2>
-                        
-                        ''')
+
+    return render(request, 'hola_mundo.html')
 
 
 
-def pagina(request,redirigir =0):
+def pagina(request):
 
-    if redirigir == 1:
-        return redirect('/inicio/')
+   
+        return render(request,'pagina.html')
 
 
 
-    return HttpResponse(layout+'''
-    <h1>Pagina creada por Hendrick Rafel</h1>
-''')
 
 
 def contacto(request,nombre):

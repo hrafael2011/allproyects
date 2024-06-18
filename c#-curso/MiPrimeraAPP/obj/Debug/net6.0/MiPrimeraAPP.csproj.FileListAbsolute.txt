@@ -1,0 +1,15 @@
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\bin\Debug\net6.0\MiPrimeraAPP.exe
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\bin\Debug\net6.0\MiPrimeraAPP.deps.json
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\bin\Debug\net6.0\MiPrimeraAPP.runtimeconfig.json
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\bin\Debug\net6.0\MiPrimeraAPP.dll
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\bin\Debug\net6.0\MiPrimeraAPP.pdb
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\MiPrimeraAPP.csproj.AssemblyReference.cache
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\MiPrimeraAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\MiPrimeraAPP.AssemblyInfoInputs.cache
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\MiPrimeraAPP.AssemblyInfo.cs
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\MiPrimeraAPP.csproj.CoreCompileInputs.cache
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\MiPrimeraAPP.dll
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\refint\MiPrimeraAPP.dll
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\MiPrimeraAPP.pdb
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\MiPrimeraAPP.genruntimeconfig.cache
+C:\CLASES DESARROLLO WEB\c#-curso\MiPrimeraAPP\obj\Debug\net6.0\ref\MiPrimeraAPP.dll

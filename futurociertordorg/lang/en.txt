@@ -1,0 +1,94 @@
+donar=>donate
+sumarse=>JOIN
+proyectoI=>Fundación Futuro Cierto I
+menu-tittle=>Fundación Futuro Cierto
+nav-item-1=>HOME
+nav-item-2=>WHAT WE DO
+nav-item-3=>CONTENT
+nav-item-4=>VIDEOS
+nav-item-5=>GALERY
+nav-item-6=>EVENTS
+nav-item-7=>CONTACTS
+nav-item-8=>DONATE
+nav-item-9=>WHO WE ARE
+nav-item-10=>OUR TEAM
+titulo-principal=>Fundación Futuro Cierto
+subtitulo-principal=>BELIEVE IN THE VALUE OF HELPING
+titulo-secundario=>Sometimes all we need is solidarity.<br/>To change an environment of calamity and misery
+titulo-tercero=>To achieve our noble objective we organize every year a large <br /> national and international events and collections
+subtitulo-tercero=>COME AND JOIN US!
+
+que-hacemos-section-tittle=>What we do
+que-hacemos-section-header=>"In everything he taught you that, working like this, you should help those in need, and remember the words of the Lord Jesus, who said: It is more blessed to give than to receive."
+que-hacemos-1=>BUILD HOUSING PROJECTS
+que-hacemos-2=>CARING FOR THE ENVIRONMENT THROUGHOUT OUR ISLAND
+que-hacemos-3=>CREATION OF MICROENTERPRISES TO COMBAT UNEMPLOYMENT
+que-hacemos-4=>DIGNABLE HOUSES FOR THE POOR
+que-hacemos-5=>DIGITAL ALPHABETIZATION
+que-hacemos-6=>GREAT NATIONAL AND INTERNATIONAL <br/> ANNUAL COLLECTION 
+
+mision-tittle=>MISSION
+mision-text=>To manage the integral reorganization of human settlements in marginalized areas of the country to turn them into models of worthy community neighborhoods, prioritizing the care and protection of the environment.
+objetivos-tittle=>GOALS
+objetivos-text=>POSITIVELY TRANSFORMING THE LIVES OF PEOPLE IN NEED IN THE DOMINICAN REPUBLIC.
+motivacion-tittle=>MOTIVATION
+motivacion-text=>"The history of our country is a long chain of calamities that have held it together with poverty as if it were an irreparable destiny" (Pedro Mir). In the 21st century we want to break with this "irreparable destiny", we want to proclaim this century, the century of GOLD of the Dominican Republic.
+
+quienes-somos-section-tittle=>WHO WE ARE
+quienes-somos-section-header=>"In everything I have taught you that, working like this, one must help and remember the words of the Lord Jesus, who said, "It is more blessed to give than to receive."
+mision-vision-valores=>mission, vision and values
+mision-vision-valores-content=>To manage the integral reorganization of human settlements in marginalized areas of the country to turn them into models of dignified community neighborhoods, equipped with the indispensable urban infrastructure, prioritizing the care and protection of the environment, promoting the personal growth of their inhabitants and the sustainable development of the community.
+objetivos=>GOALS
+objetivos-content=>POSITIVELY TRANSFORMING THE LIVES OF PEOPLE IN NEED IN THE DOMINICAN REPUBLIC
+motivacion=>MOTIVATION
+motivacion-content=>"The history of our country is a long chain of calamities that have held it together with poverty as if it were an irreparable destiny" (Pedro Mir). This phrase by Pedro Mir, which is a historical truth, is not at the same time a historical fatalism. This poverty is the product of a guilty human will that for centuries has kept this people in a situation of inhuman misery. In the 21st century we want to break with this "irreparable destiny", we want to proclaim this century, the century of GOLD of the Dominican Republic.
+experiencia-tittle=>I want to share with you a beautiful experience
+experiencia-content=>While I was talking with a lady in the community of Lawrence (Massachusetts), about the possibilities of real development that this Foundation has in our Dominican Republic; the lady and I were filled with enthusiasm and almost cried with joy knowing that only by contributing 10 dollars a year, the Dominicans living in the United States can solve the housing problem of thousands and thousands of poor families in the Dominican Republic.
+
+titulo-video1=>The New Homes
+titulo-video2=>Beneficiaries of New Homes
+titulo-video3=>Rancho la Guardia
+titulo-video4=>Delivery of Houses in Elias Piña
+
+galeria-section-tittle=>GALLERY
+galeria-section-filter-1=>ALL
+galeria-section-filter-2=>PROMOTIONS
+promocional-eventos-tittle=>Do you want to be part of our work?
+promocional-eventos-description=>Take part in our fundraising campaign.
+promocional-eventos-button=>Contributes to our work
+
+evento-section-tittle=>SEVEN DAYS WITH FUNDACIÓN FUTURO CIERTO
+evento-section-header=>From 14 to 20 September 2020
+evento-section-content1=>Soon more details... Watch out for our social networks!
+
+contactos-section-tittle=>CONTACT US
+contactos-section-donde-encontrarnos=>WHERE TO FIND US
+contactos-section-como-contactarnos=>HOW TO CONTACT US
+contactos-section-como-escribirnos=>HOW TO WRITE US
+contactos-section-redes-sociales=>OUR SOCIAL NETWORKS
+
+donar-form-section-tittle=>Donate digitally
+donar-form-section-p1=>With the contribution of every Dominican living in the country or abroad, we seek to transform marginalized areas into models of dignified neighborhoods.
+donar-form-section-p2=>We all deserve to live in an environment of equal opportunity, hope, joy, dignity and since we Dominicans are essentially supportive, helpful, we want to motivate you to share a little bit of the blessings we enjoy. Bro José María Guerrero has, for a long time, had a dream that can be realized with only fifty pesos a year per person. To change the face of the slums and marginalised areas of the Dominican Republic.
+donar-bank-accounts-link=>Or make your contribution to one of our bank accounts
+donar-cardnet-link=>Learn more about our payment methods
+boton-donacion-alternativo=>If you don't have PayPal click here
+
+donate-form-btn-1=>If you do not have a Paypal account click here
+donate-form-btn-2=>Or make your contribution to one of our bank accounts
+donate-form-btn-3=>Learn more about our payment methods
+
+donar-section-cuentas-tittle=>DO YOUR PART
+donar-section-cuentas-header=>"In all things I have taught you that in so doing you must help the needy and remember the words of the Lord Jesus, who said, 'It is more blessed to give than to receive."
+donar-section-cuentas-banco=>BANK
+donar-section-cuentas-moneda=>CURRENCY
+donar-section-cuentas-cuenta=>ACCOUNT NUMBER
+
+cardnet-tittle=>CARDNET JOINS US
+cardnet-content=>Learn more about the actions you can take with your credit or debit card to achieve #ViviendasDignas for the most needy in the Dominican Republic through our alliance with "@cardnetrd JOINS US.
+cardnet-listElement1=>They are easy to perform and immediate <i class="far fa-check-circle"></i> 
+cardnet-listElement2=>Donations can be made from anywhere in the world <i class="far fa-check-circle"></i> 
+cardnet-listElement3=>Fixed donations are boosted <i class="far fa-check-circle"></i>
+
+encuentranos=>Find us at
+derechos=>Certain Future Fundaction, All Rights Reserved

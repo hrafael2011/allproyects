@@ -1,0 +1,144 @@
+
+/*General*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix{
+  float: none;
+  clear: both;
+}
+
+body{
+  
+  background: lightblue;
+
+  /*HEADER*/
+}
+.header{
+  width: 100%;
+  height: 200px;
+  background-color: gray;
+  margin-top: none;
+}
+
+.header h1{
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+/*NAV*/
+
+.nav{
+  width: 100%;
+  background: whitesmoke;
+  min-height: 50px;
+}
+
+.nav ul{
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  background-color: greenyellow;
+}
+
+.nav ul li{
+  display: inline-block;
+  padding-left: 60px;
+ 
+   height: 50px;
+   width: 100px;
+   text-align: center;
+  transition: all 3ms;
+}
+
+.nav a{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: arial;
+  margin-right: 60px;
+}
+
+.nav> ul> li:hover{
+  background-color: green;
+
+  
+ }
+
+.nav> ul> li:hover *{
+  
+  color: white;
+  
+ }
+
+
+ /*SECCTION*/
+
+ .section{
+  display: block;
+  width: 80%;
+  min-height: 800px;
+  background: whitesmoke;
+  margin-left: 10%;
+  }
+
+  .section aside{
+    display: block;
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    min-height: 480px;
+    width: 300px;
+    background:lightgreen;
+    text-align: center;
+    padding-top: 20px;
+    font-family: arial;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .caja{
+    float: left;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 200px;
+    text-transform: uppercase;
+    background-color: gray;
+    color: white;
+  }
+
+
+  /*FOOTER*/
+
+  .footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+  }
+
+  .footer h1{
+    float: left;
+    margin-left: 25%;
+  }
+
+  .footer  span{
+    float: right;
+    margin-right: 25%;
+  }
+
+
+

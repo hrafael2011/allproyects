@@ -1,0 +1,97 @@
+donar=>donar
+sumarse=>SUMARSE
+proyectoI=>Proyecto Futuro Cierto I
+
+menu-tittle=>FUNDACIÓN FUTURO CIERTO
+nav-item-1=>INICIO
+nav-item-2=>QUÉ HACEMOS
+nav-item-3=>CONTENIDO
+nav-item-4=>VIDEOS
+nav-item-5=>GALERIA
+nav-item-6=>EVENTOS
+nav-item-7=>CONTACTOS
+nav-item-8=>DONAR
+nav-item-9=>QUIENES SOMOS
+nav-item-10=>NUESTRO EQUIPO
+
+titulo-principal=>Fundación Futuro Cierto
+subtitulo-principal=>CREE EN EL VALOR DE AYUDAR
+titulo-secundario=>A veces, lo único que necesitamos es solidaridad.<br/>Para cambiar un entorno de calamidad y miseria
+titulo-tercero=>Para conseguir nuestro noble objetivo organizamos todos los años una grandes <br /> eventos y colectas nacionales e internacionales
+subtitulo-tercero=>¡VEN Y SUMATE!
+
+que-hacemos-section-tittle=>Qué hacemos
+que-hacemos-section-header=>"En todo os he enseñado que, trabajando así, se debe ayudar a los necesitados, y recordar las palabras del Señor Jesús, que dijo: Más bienaventurado es dar que recibir."
+que-hacemos-1=>CONSTRUIR PROYECTOS DE VIVIENDAD
+que-hacemos-2=>Cuidar el medio ambiente a lo largo y ancho de nuestra isla
+que-hacemos-3=>Creación de micro empresas para combatir el desempleo
+que-hacemos-4=>Viviendas Dignas para los pobres
+que-hacemos-5=>Alfabetización digital
+que-hacemos-6=>Gran colecta anual nacional <br/> e internacional
+
+mision-tittle=>MISIÓN
+mision-text=>Gestionar la reorganización integral de asentamientos humanos en áreas marginadas del país para convertirlos en modelos de vecindarios comunitarios dignos, priorizando el cuidado y protección del ambiente.
+objetivos-tittle=>OBJETIVOS
+objetivos-text=>TRANSFORMAR POSITIVAMENTE LA VIDA DE LAS PERSONAS NECESITADAS EN REPÚBLICA DOMINICANA
+motivacion-tittle=>MOTIVACIÓN
+motivacion-text=>“La historia de nuestro país es una larga cadena de calamidades que lo han mantenido unido a la pobreza como si fuese un destino irreparable” (Pedro Mir). En el siglo XXI queremos romper con este “destino irreparable”, queremos proclamar este siglo, el siglo de ORO de República Dominicana.
+
+quienes-somos-section-tittle=>QUIENES SOMOS
+quienes-somos-section-header=> "En todo os he enseñado que, trabajando así, se debe ayudar a los necesitados, y recordar las palabras del Señor Jesús, que dijo: Más bienaventurado es dar que recibir."
+mision-vision-valores=>Misión, Visión y Valores
+mision-vision-valores-content=>Gestionar la reorganización integral de asentamientos humanos en áreas marginadas del país para convertirlos en modelos de vecindarios comunitarios dignos, dotados de la infraestructura urbanística indispensable, priorizando el cuidado y protección del ambiente, promoviendo el crecimiento personal de sus moradores y el desarrollo sostenible de la comunidad.
+objetivos=>objetivos
+objetivos-content=>TRANSFORMAR POSITIVAMENTE LA VIDA DE LAS PERSONAS NECESITADAS EN REPÚBLICA DOMINICANA
+motivacion=>Motivación
+motivacion-content=>“La historia de nuestro país es una larga cadena de calamidades que lo han mantenido unido a la pobreza como si fuese un destino irreparable” (Pedro Mir). Esta frase de Pedro Mir, que es una verdad histórica, no es al mismo tiempo un fatalismo histórico. Esta pobreza es producto de una voluntad humana culpable que durante siglos ha mantenido a este pueblo en una situación de miseria inhumana. En el siglo XXI queremos romper con este “destino irreparable”, queremos proclamar este siglo, el siglo de ORO de República Dominicana.
+experiencia-tittle=>Quiero compartir con ustedes una hermosa experiencia
+experiencia-content=>Mientras me encontraba conversando con una señora en la comunidad de Lawrence (Massachusetts), sobre las posibilidades de desarrollo real que tiene esta Fundación en nuestra República Dominicana; la señora y yo nos llenamos de entusiasmo y casi lloramos de alegría al saber que sólo aportando 10 dólares al año, los dominicanos y dominicanas que viven en Estados Unidos pueden resolver el problema de vivienda de miles y miles de familias pobres en República Dominicana.
+
+titulo-video1=>Los Nuevos Hogares
+titulo-video2=>Beneficiarios de Nuevas Viviendas
+titulo-video3=>Rancho la Guardia
+titulo-video4=>Entrega de Viviendas en Elias Piña
+
+galeria-section-tittle=>GALERIA
+galeria-section-filter-1=>TODAS
+galeria-section-filter-2=>PROMOCIONALES
+promocional-eventos-tittle=>¿Quieres ser parte de nuestra obra?
+promocional-eventos-description=>Participa de nuestra campaña de recaudación.
+promocional-eventos-button=>Aporta a nuestro trabajo
+
+evento-section-tittle=>Siete Días Con Fundación Futuro Cierto
+evento-section-header=>Del  14 al 20 de septiembre 2020
+evento-section-content1=>Pronto más detalles.. ¡Atentos a nuestras redes sociales!
+
+contactos-section-tittle=>CONTACTANOS
+contactos-section-donde-encontrarnos=>DONDE ENCONTRARNOS
+contactos-section-como-contactarnos=>COMO CONTACTARNOS
+contactos-section-como-escribirnos=>COMO ESCRIBIRNOS
+contactos-section-redes-sociales=>NUESTRAS REDES SOCIALES
+
+donar-form-section-tittle=>Dona de forma digital
+donar-form-section-p1=>Con el aporte de cada dominicano radicado en el país o en el extranjero, buscamos transformar las áreas marginadas en modelos de vecindarios dignos.
+donar-form-section-p2=>Todos merecemos vivir en un ambiente de equidad de oportunidades, de esperanza, de alegría, de dignidad y como los dominicanos somos en esencia solidarios, serviciales, queremos motivarlos a compartir un poquito de las bendiciones que disfrutamos. Fray José María Guerrero tiene, desde hace mucho, un sueño que es realizable con apenas cincuenta pesos al año por persona. Cambiar el rostro de los barrios y parajes marginados de la República Dominicana.
+donar-bank-accounts-link=>O Haz tu aporte a alguna de nuestras cuentas bancarias
+donar-cardnet-link=>Conoce mas sobre nuestros metodos de pago
+boton-donacion-alternativo=>Si no cuentas con cuenta Paypal hacer click aqui
+
+donate-form-btn-1=>Si no cuentas con cuenta Paypal hacer click aqui
+donate-form-btn-2=>O Haz tu aporte a alguna de nuestras cuentas bancarias
+donate-form-btn-3=>Conoce mas sobre nuestros metodos de pago
+
+donar-section-cuentas-tittle=>HAZ TU APORTE
+donar-section-cuentas-header=>"En todo os he enseñado que, trabajando así, se debe ayudar a los necesitados, y recordar las palabras del Señor Jesús, que dijo: Más bienaventurado es dar que recibir."
+donar-section-cuentas-banco=>ENTIDAD BANCARIA
+donar-section-cuentas-moneda=>MONEDA
+donar-section-cuentas-cuenta=>NUMERO DE CUENTA
+
+
+cardnet-tittle=>CARDNET NOS UNE
+cardnet-content=>Conoce más sobre las acciones que puedes realizar con tu tarjeta de crédito o débito para lograr #ViviendasDignas para los más necesitados en República Dominicana a través de nuestra alianza con «@cardnetrd Nos Une»
+cardnet-listElement1=>Son fáciles de realizar e inmediatas <i class="far fa-check-circle"></i> 
+cardnet-listElement2=>Se pueden realizar donaciones desde cualquier lugar del mundo <i class="far fa-check-circle"></i> 
+cardnet-listElement3=>Impulsan las donaciones fijas <i class="far fa-check-circle"></i> 
+
+encuentranos=>Encuentranos en
+derechos=>Fundación Futuro Cierto, Todos los derechos reservados

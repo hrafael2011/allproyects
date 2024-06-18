@@ -1,4 +1,37 @@
+
+***************Creacion de nuevo proyecto con Vite********
+
+en el directorio donde se encuentra el proyecto , escribir el siguiente promt:  npm create vite@latest
+
+
+
+
 **********style component*************
 
 1 - hay que instalar una libreria llamada @emotion/react (Buscarla en intenet la pagina)
 2 - por la consola del comendo ir al directorio donde esta el proyecto y escribir el comando npm i @emotion/react @emotion/styled
+
+
+**********Instalacion de la librereia react router Dom**********
+
+1-en el directorio donde esta el proyecto , mediante la consola escribimos: npm install react-router-dom
+
+
+***********************Terminos aprender e investigar*******************
+
+notas: investigar una herramienta llamada postman
+error 200
+target='_blank'
+
+
+*********************** instalacion de boobstrap y tailwindcss *********************
+
+nmp i react-Bootstrap Bootstrap
+npm i -D tailwindcss postcss autoprefixer
+ - npx tailwindcss init -p /* eso es para terminar de configurar tailwiindcss*/
+
+ ************* hook***************************************************
+
+ Los hooks no pueden ser declarados fuera de un componente
+ no pueden estar dentro de una funcion o una condicion
+
