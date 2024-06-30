@@ -20,3 +20,9 @@ export const acortarTexto = (valor, desde, hasta) =>{
     return valor.substring(desde, hasta)
 }
 
+
+export const isNumeric = (value)=>{
+
+    return typeof value == 'string'; 
+}
+

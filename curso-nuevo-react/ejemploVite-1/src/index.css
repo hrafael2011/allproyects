@@ -76,3 +76,10 @@
         display: block !important;
       }
   
+
+      .roja{
+        background-color: red;
+      }
+      .azul{
+        background-color: blue;
+      }

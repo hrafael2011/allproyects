@@ -35,3 +35,75 @@ npm i -D tailwindcss postcss autoprefixer
  Los hooks no pueden ser declarados fuera de un componente
  no pueden estar dentro de una funcion o una condicion
 
+
+***************** Sweetalert libreria para alertas personalizadas *************************
+npm install sweetalert2 // ese el comando
+
+
+
+////////////////////////////////// Otras notas de react /*////////////////////////////////////////////////
+
+{/* Esta es una forma de realizar condiciones */}
+      <h3>Renderizado condicional</h3>
+      {(edad>=18) &&(
+        <h4>La persona es mayor de edad</h4>
+        )}
+
+        {/*Esta es otra forma de hacer condiciones, esta vinee siendo como el equivalente a if y else */}
+        {(genero == 'Masculino') ?(
+
+            <h4>Es varon</h4>
+        ):(
+            <h4>Es Hembra</h4>
+        )}
+
+        <h1>Rederizado swith case</h1>
+        {(()=>{
+            switch(numero){
+                case 13:
+                    return <h4>El numero es 13</h4>
+                    break;
+                case 14:
+                    return <h4>El numero es 14</h4>
+                    break;
+                default:
+                    return <h4>El numero es 11</h4>
+
+            }
+
+
+
+        })()} {/* esos parerentesis son nesesarios al final */}
+
+
+        
+        <h1>Ejemplo de loop</h1>
+        <ul>
+                {[...Array(11)].map((x, i)=>(
+                    <li key={i}>{i+1}</li>
+                ))}
+
+        </ul>
+
+
+        <h3>Loop Normal</h3>
+           
+
+        <h3>Inline IIFE</h3>
+        <h3>Con ES2015 syntax y Array methods</h3>
+        <h3>ciclo de for sencillo</h3>
+
+
+        <h1>Como recorrer un arreglo con map</h1>
+        <ul>
+            {paises.map((pais, index)=>(
+                <li key={pais}>
+                   {index +1} - {pais.nombre} El dominio es: {pais.dominio}</li>
+
+            ))}
+        </ul>
+
+
+        /////////////////////*******************FORMULARIOS *********************/////////////////////////////
+
+        // instlacion de la libreria FORMIK: npm i formik

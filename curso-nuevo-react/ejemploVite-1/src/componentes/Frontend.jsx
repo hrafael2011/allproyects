@@ -6,6 +6,7 @@ const Frontend = () => {
   return (
     <>
       <Header/>
+      
       <main className="container">
       <Outlet/>
       </main>

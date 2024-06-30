@@ -22,12 +22,10 @@ const HooksUseEffect = () => {
     };
   }, [marcador]);
 
-  const ShowArray=()=>{
-    setmarcador(1);
+  const ShowArray=(valor)=>{
+    setmarcador(valor);
   }
-  const HiddenArray = ()=>{
-    setmarcador(0)
-  }
+
   return (
     <>
       <nav aria-label="breadcrumb">
@@ -58,9 +56,9 @@ const HooksUseEffect = () => {
         </>
       )}
       <hr />
-      <button className="btn btn-success" onClick={()=>{ShowArray()}}>Mostrar</button>
+      <button className="btn btn-success" onClick={()=>{ShowArray(1)}}>Mostrar</button>
       <hr />
-      <button className="btn btn-danger" onClick={()=>{HiddenArray()}}>Ocultar</button>
+      <button className="btn btn-danger" onClick={()=>{ShowArray(0)}}>Ocultar</button>
     </>
   );
 };

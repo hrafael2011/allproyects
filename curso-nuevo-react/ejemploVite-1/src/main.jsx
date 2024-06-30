@@ -20,6 +20,16 @@ import HooksUseState from './paginas/HooksUseState.jsx'
 import HooksEventoOnchage from './paginas/HooksEventoOnchage.jsx'
 import HooksEventosVarios from './paginas/HooksEventosVarios.jsx'
 import HooksUseEffect from './paginas/HooksUseEffect.jsx'
+import HookCustom from './paginas/HookCustom.jsx'
+import HooksUseLoaderData, { loader as paises_loader } from './paginas/HooksUseLoaderData.jsx'
+import HooksUsenavigate from './paginas/HooksUsenavigate.jsx'
+import UseLocation from './paginas/UseLocation.jsx'
+import HooksUseRef from './paginas/HooksUseRef.jsx'
+import Formularios from './paginas/Formularios.jsx'
+import FormularioSiemple from './paginas/FormularioSiemple.jsx'
+import FormularioUseActionData, {action as procesFormActionDate} from './paginas/FormularioUseActionData.jsx'
+import FormulariosFormik from './paginas/FormulariosFormik.jsx'
+import FormularioReactHookForm from './paginas/FormularioReactHookForm.jsx'
 
 // Componentes de paginas
 
@@ -71,6 +81,50 @@ const router = createBrowserRouter(
         {
           path: '/hooks/use-effect',
           element: <HooksUseEffect/>
+        },
+        {
+          path: '/hooks/custom-hook',
+          element: <HookCustom/>
+        },
+        {
+          path: '/hooks/use-location',
+          element: <UseLocation/>
+        },
+        {
+          path: '/hooks/load-data',
+          element: <HooksUseLoaderData/>,
+          loader: paises_loader
+
+        },
+        
+        {
+          path: '/hooks/use-navigate',
+          element: <HooksUsenavigate/>
+        },
+        {
+          path: '/hooks/use-ref',
+          element: <HooksUseRef/>
+        },
+        {
+          path: '/formulario',
+          element: <Formularios/>
+        },
+        {
+          path: '/formulario/formulario-simple',
+          element: <FormularioSiemple/>
+        },
+        {
+          path: '/formulario/formulario-use-data',
+          element: <FormularioUseActionData/>,
+          action: procesFormActionDate
+        },
+        {
+          path: '/formulario/formulario-formik',
+          element: <FormulariosFormik/>
+        },
+        {
+          path: '/formulario/formulario-reactHookForm',
+          element: <FormularioReactHookForm/>
         },
         {
           path:'/rutas/path/',
